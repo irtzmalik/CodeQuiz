@@ -1,0 +1,124 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+<div class="container-fluid ">
+   <div class="row">
+    <div class="col-lg-6 col-md-6 top-division move-text-left">
+      <p>
+	  
+	  <a href="#" onclick="highScores()"  data-toggle="modal" data-target="#high-scores"><b>View High Scores</b></a>
+	  </p>
+    </div>
+    <div class="col-lg-6 col-md-6 top-division move-text-right">
+	
+	<b>Time :</b> <div id="timer"></div>
+    </div>
+  </div>
+  <div class="row content-row justify-content-center">
+   <div class="col-lg-10 col-md-10  content-row-main">
+     
+    <p id = "ans-evaluation"></p>
+    <h3 class="question" id="ques"><div style="text-align: center;"> <button class= "btn btn-primary" onclick="startQuiz(1)">Start HTML Quiz</button>
+        <button class= "btn btn-primary" onclick="startQuiz(2)">Start CSS Quiz</button></div></h3>
+	<form role="form" id="quizform" name="quizform" action="" method="post">
+      
+      <div style="position:relative;width:100%;">
+        <div id="altcontainer">
+         <!-- <label class="radiocontainer checkedlabel" id="label2"> Hyperlinks and Text Markup Language<input type="radio" name="quiz" id="2" onclick="clickRadio(this)" value="2"><span class="checkmark"></span></label>
+		  <br>
+		  <label class="radiocontainer" id="label3"> Hyper Text Markup Language<input type="radio" name="quiz" id="3" onclick="clickRadio(this)" value="3"><span class="checkmark"></span></label>
+		  <br>
+		  <label class="radiocontainer" id="label1"> Home Tool Markup Language<input type="radio" name="quiz" id="1" onclick="clickRadio(this)" value="1"><span class="checkmark"></span></label> -->
+        </div>
+      </div>
+     
+    </form>
+	
+    </div>
+  </div>
+  <!-- The Modal -->
+  <div class="modal" id="score-board">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Congrats You Scored: <span id="score"></span></h4>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form>
+		  <div class="form-group">
+		  <label for="inputUserName">Please Enter Your Name:</label>
+		  <br>
+		  <input type="text" name="user-name" id="user-name"  class="form-control">
+		  </div>
+		  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="save()">Save</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+    <!-- The Modal -->
+  <div class="modal" id="high-scores">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">High-Scores:</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" id="high-scores-list">
+		<ul class="list-group" id="score-list">
+ 
+</ul>
+       
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<audio id="myAudio"> 
+  <source src="sounds/incorrect.mp3" type="audio/mpeg">
+  
+</audio>
+
+<audio id="myAudio1"> 
+  <source src="sounds/correct.mp3" type="audio/mpeg">
+  
+</audio>
+<script src ="js/question.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

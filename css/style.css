@@ -1,0 +1,221 @@
+body{
+    background-color:#fdfdfd;
+    }
+    #quizmain {
+      font-family: "Segoe UI",Arial,sans-serif;
+      width:100%;
+      background-color:#fff;
+    }
+    #quizcontainer {
+      padding:0 20px 40px 0;
+    }
+    #qtext {
+      font-size:18px;
+      margin-bottom:40px;
+    }
+    #altcontainer {
+      background-color:#fff;
+      font-size:120%;
+      line-height:1.7em;
+    }
+    #answerbuttoncontainer {
+      position:relative;
+      padding:20px 0;
+    }
+    .answerbutton {
+      background-color:#4CAF50;
+      padding:12px 30px !important;
+      font-size:17px;
+    }
+    #timespent {
+      position:absolute;
+      right:0;
+      text-align:right;
+      border:none;
+      font-family: "Segoe UI",Arial,sans-serif;
+      font-size:16px;
+      width:80px;
+    }
+    /* The radiocontainer */
+    .radiocontainer {
+      background-color:#f1f1f1;
+      display: block;
+      position: relative;
+      padding:10px 10px 10px 50px;
+      margin-bottom: 1px;
+      cursor: pointer;
+      font-size: 18px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      word-wrap: break-word;
+    }
+    
+    /* Hide the browser's default radio button */
+    .radiocontainer input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+    }
+    
+    /* Create a custom radio button */
+    .checkmark {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      height: 19px;
+      width: 19px;
+      background-color: #fff;
+      border-radius: 50%;
+    }
+    .checkedlabel {
+      background-color:#ddd;
+    }
+    /* On mouse-over, add a grey background color */
+    .radiocontainer:hover input ~ .checkmark {
+      /*nothing*/
+    }
+    .radiocontainer:hover {
+      background-color: #ddd;
+    }
+    
+    /* When the radio button is checked, add a blue background */
+    .radiocontainer input:checked ~ .checkmark {
+      background-color: #2196F3;
+    }
+    
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+    
+    /* Show the indicator (dot/circle) when checked */
+    .radiocontainer input:checked ~ .checkmark:after {
+        display: block;
+    }
+    /* Style the indicator (dot/circle) */
+    .radiocontainer .checkmark:after {
+         top: 6px;
+        left: 6px;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: white;
+    }
+    
+    /*------------------------------------------------------------------*/
+    .radiocontainer input:checked ~ .checkmark {
+        background-color: #2196F3;
+    }
+    .checkmark {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        height: 19px;
+        width: 19px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    #altcontainer {
+        background-color: #fff;
+        font-size: 120%;
+        line-height: 1.7em;
+    }
+    .checkedlabel {
+        background-color: #ddd;
+    }
+    .radiocontainer {
+        background-color: #f1f1f1;
+        display: block;
+        position: relative;
+        padding: 10px 10px 10px 50px;
+        margin-bottom: 1px;
+        cursor: pointer;
+        font-size: 18px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        word-wrap: break-word;
+    }
+    .division{
+    border:2px solid red;
+    }
+    .top-division{
+    padding-top:1.5%;
+    padding-left:9%;
+    padding-right:9%;
+    }
+    .top-division p{
+    padding:0;
+    margin:0;
+    }
+    .top-division a{
+    text-decoration:none;
+    }
+    .move-text-right{
+    text-align:right;
+    }
+    .move-text-left{
+    text-align:left;
+    }
+    .content-row{
+    margin-top:5%;
+    height:60%;
+    
+    }
+    .question{
+    color:#33c8e0;
+    text-align:center;
+    padding-bottom:5%;
+    padding-top:3%;
+    
+    }
+    #timer{
+    display:inline-block;
+    }
+    .content-row-main{
+    padding:2%;
+    background-color:white;
+    border: 2px solid #efeaea;
+    border-radius:16px 16px 16px 16px;
+    border: 1px solid #e6e6e6;
+      padding: 10px;
+      box-shadow: 5px 10px 5px #e6e6e6;
+    }
+    #ans-evaluation{
+    text-align :center;
+    font-size:130%;
+    }
+    #correct{
+    color:green;
+    }
+    #incorrect{
+    color:red;
+    }
+
+
+    
+    @media screen and (max-width: 766px) {
+    .move-text-right ,.move-text-left{
+    text-align:center;
+    }
+    .content-row{
+    margin-top:0%;
+    min-height:89%;
+    }
+    .content-row-main{
+    padding:10%;
+    border: 2px solid #efeaea;
+    
+    border: 0px;
+      padding: 0px;
+      box-shadow: 5px 10px 5px white;
+    }
+    .top-division{
+    padding:0%;
+    }
+    }

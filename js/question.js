@@ -33,7 +33,7 @@ var htmlQuestionAndAnswers = [ // list of questions & answers
 	score: 10
 },
 {
-	title: "Web pages starts with which ofthe following tag?",
+	title: "Web pages starts with which of the following tag?",
     choices: ["Body", "Title", "HTML","Form"],
     answer: "2",
 	score: 10

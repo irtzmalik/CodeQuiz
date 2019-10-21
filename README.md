@@ -10,13 +10,17 @@ Git clone the repo on your local computer and open Index.html or use this link b
 Go to Index.html 
 
 Choose Quiz
+
 ![Choose] (Images/C1.png)
 
 Select Answer
+
 ![Answer_Correct] (/Images/C2.png)
+
 ![Answer_InCorrect] (/Images/C3.png)
 
 Enter Name & Save 
+
 ![Name_Enter] (/Images/C4.png)
 
 ![Finished] (/Images/C5.png)

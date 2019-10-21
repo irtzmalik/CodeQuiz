@@ -13,7 +13,7 @@ Go to Index.html or https://irtzmalik.github.io/CodeQuiz/
 
 Choose Quiz
 
-![Choose] (https://raw.githubusercontent.com/irtzmalik/CodeQuiz/blob/master/Images/C1.PNG)
+![Choose] (https://github.com/irtzmalik/CodeQuiz/blob/master/Images/C1.PNG)
 
 Select Answer
 

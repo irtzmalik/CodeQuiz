@@ -4,6 +4,7 @@ This is Code Quiz it is Multiple choice Questions regarding web coding. You firs
 
 ## Installation
 Git clone the repo on your local computer and open Index.html or use this link below
+
 https://irtzmalik.github.io/CodeQuiz/
 
 

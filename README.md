@@ -4,30 +4,31 @@ This is Code Quiz it is Multiple choice Questions regarding web coding. You firs
 
 ## Installation
 Git clone the repo on your local computer and open Index.html or use this link below
+https://irtzmalik.github.io/CodeQuiz/
 
 
 ## Usage 
-Go to Index.html 
+Go to Index.html or https://irtzmalik.github.io/CodeQuiz/
 
 Choose Quiz
 
-![Choose] (Images/C1.png)
+![Choose] (https://raw.githubusercontent.com/irtzmalik/CodeQuiz/blob/master/Images/C1.PNG)
 
 Select Answer
 
-![Answer_Correct] (/Images/C2.png)
+![Answer_Correct] (https://raw.githubusercontent.com/irtzmalik/CodeQuiz/master/Images/C2.png)
 
-![Answer_InCorrect] (/Images/C3.png)
+![Answer_InCorrect] (https://raw.githubusercontent.com/irtzmalik/CodeQuiz/master/Images/C3.png)
 
 Enter Name & Save 
 
-![Name_Enter] (/Images/C4.png)
+![Name_Enter] (https://raw.githubusercontent.com/irtzmalik/CodeQuiz/master/Images/C4.png)
 
-![Finished] (/Images/C5.png)
+![Finished] (https://raw.githubusercontent.com/irtzmalik/CodeQuiz/master/Images/C5.png)
 
 
 View High Score
 
-![High_Score_Click] (/Images/C6.png)
+![High_Score_Click] (https://raw.githubusercontent.com/irtzmalik/CodeQuiz/master/Images/C6.png)
 
-![High_Score] (/Images/C7.png)
+![High_Score] (https://raw.githubusercontent.com/irtzmalik/CodeQuiz/master/Images/C7.png)
